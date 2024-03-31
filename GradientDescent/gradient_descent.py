@@ -11,7 +11,7 @@ def gradient(x):
 
 # Gradient descent parameters
 lambda_ = 0.2  # leaning rate
-x_0 = np.array([-5, -5])  # starting vector
+x_0 = np.array([-0.5, -0.5])  # starting vector
 
 # Perform gradient descent for k = 1, 2
 x_1 = x_0 - lambda_ * gradient(x_0)
